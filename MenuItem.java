@@ -1,4 +1,3 @@
-// Step B: The Leaf (Individual Item)
 public class MenuItem implements MenuComponent {
     private String name;
     private double price;
