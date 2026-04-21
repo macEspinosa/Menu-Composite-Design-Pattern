@@ -1,3 +1,4 @@
+// MenuItem.java
 public class MenuItem implements MenuComponent {
     private String name;
     private double price;
