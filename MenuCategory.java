@@ -1,4 +1,4 @@
-// Step C: The Composite (Category/Combo)
+// MenuCategory.java
 import java.util.ArrayList;
 import java.util.List;
 
