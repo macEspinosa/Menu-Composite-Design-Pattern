@@ -10,7 +10,6 @@ A "Value Meal Combo," for example, is itself a single menu entry that has a tota
 
 Your task is to design and implement this system using the Composite Design Pattern. Both individual items and nested categories must share a common interface, allowing the POS system to calculate the price of any entry (whether a single soda or a massive family bundle) using the exact same method call.
 
-## UML Diagram 
 
 ## Requirements & Steps
 
