@@ -1,4 +1,4 @@
-// Leaf - Individual Menu Item
+// Step B: The Leaf (Individual Item)
 public class MenuItem implements MenuComponent {
     private String name;
     private double price;
@@ -15,6 +15,6 @@ public class MenuItem implements MenuComponent {
     
     @Override
     public void print() {
-        System.out.printf("  - %s: P%.2f%n", name, price);
+        System.out.println(" - " + name + ": P" + price);
     }
 }
