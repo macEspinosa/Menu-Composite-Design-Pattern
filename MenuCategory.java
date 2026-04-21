@@ -1,7 +1,7 @@
+// Step C: The Composite (Category/Combo)
 import java.util.ArrayList;
 import java.util.List;
 
-// Composite - Category or Combo Meal
 public class MenuCategory implements MenuComponent {
     private String name;
     private List<MenuComponent> menuComponents;
@@ -15,10 +15,6 @@ public class MenuCategory implements MenuComponent {
         menuComponents.add(component);
     }
     
-    public void remove(MenuComponent component) {
-        menuComponents.remove(component);
-    }
-    
     @Override
     public double getPrice() {
         double total = 0;
@@ -30,7 +26,7 @@ public class MenuCategory implements MenuComponent {
     
     @Override
     public void print() {
-        System.out.println(name + " (Total: P" + String.format("%.2f", getPrice()) + ")");
+        System.out.println(name + ":");
         for (MenuComponent component : menuComponents) {
             component.print();
         }
